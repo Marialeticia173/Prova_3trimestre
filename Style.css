@@ -1,0 +1,114 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: verdan;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background: #9b2e2e;
+    font-size: x-large;
+    color: #000000;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    width: 70px;
+    height: 70px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+header nav ul li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.hero {
+    font-family: verdan;
+    color: #000000;
+    text-align: center;
+    padding: 3rem 1rem;
+    background: #bba0a0;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero .btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1.5rem;
+    background: #000000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+section {
+    font-family: Verdan;
+    font-size: 1.3rem;
+    color: #000000;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.produtos-container {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.produto {
+    font-family: verdan;
+    color: #000000;
+    background: #835555;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    text-align: center;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.produto img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.produto h3 {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
+
+.produto button {
+    background: #000000;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    background: #000000;
+    color: #fff;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
